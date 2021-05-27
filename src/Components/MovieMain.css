@@ -1,0 +1,39 @@
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.filter{
+	margin-bottom: auto;
+	margin-right: 2rem
+}
+
+.stars-filter{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem
+}
+
+.stars-filter span{
+	margin-right: 1.5rem;
+	font-weight: bold;
+}
+
+.stars-filter ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.stars-filter ul i{
+	margin-right: 1.5rem;
+	cursor: pointer;
+	transition: all ease .5s;
+}
+
+.stars-filter ul i:hover{
+	color: #F7E83B;
+}
